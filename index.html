@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STG Gifts - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sale-banner">
+        <div class="sale-text">
+          🎉 Raksha Bandhan Special! Flat 20% Off – Use Code: <strong>STG20</strong> &nbsp;|&nbsp; 🛍️ Big Discount on Big Orders &nbsp;|&nbsp; 🚚Free Shipping on Order Above ₹999 
+        </div>
+      </div>
+      
+      
+      <header class="main-header">
+        <h1 class="logo">STG Gifts</h1>
+        <div class="nav-container">
+          <nav class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <div class="nav-right">
+            <div class="dropdown">
+              <button class="dropbtn">Bulk Order ▾</button>
+              <div class="dropdown-content">
+                <a href="tel:+919315523221">📞 Call Now</a>
+                <a href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20place%20a%20bulk%20order." target="_blank"><img src="images/whatsapp-icon.jpeg" alt="WhatsApp" class="wa-icon"> WhatsApp Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-text">
+      <h2>Make Every Moment Special 🎁</h2>
+      <p>Get personalized gifts for birthdays, anniversaries, festivals & more!</p>
+      <a href="products.html" class="order-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose STG Gift?</h2>
+    <div class="feature-columns">
+      <div class="feature-left">
+        <div class="feature">🎨 100% Customization</div>
+        <div class="feature">⏱ Fast Delivery</div>
+      </div>
+      <div class="feature-right">
+        <div class="feature">💝 Made with Love</div>
+        <div class="feature">💸 Affordable Prices</div>
+      </div>
+    </div>
+  </section>  
+  <section class="best-sellers">
+    <h2>🔥 Best Sellers</h2>
+    <div class="products-row">
+      <div class="product">
+        <img src="images/mug.jpeg" alt="Mug">
+        <h3>Mug</h3>
+        <p>₹199</p>
+        <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Mug.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+      </div>
+      <div class="product">
+        <img src="images/tshirt.jpeg" alt="T-Shirt">
+        <h3>T-Shirt</h3>
+        <p>₹249</p>
+        <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20T-Shirt.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+      </div>
+      <div class="product">
+        <img src="images/led-cushion.jpeg" alt="LED Cushion">
+        <h3>LED Cushion</h3>
+        <p>₹249</p>
+        <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20an%20LED%20Personalized%20Cushion.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="reviews">
+    <h2>🗣️ Customer Reviews & Ratings</h2>
+  
+    <form class="review-form" onsubmit="submitReview(event)">
+      <input type="text" id="reviewerName" placeholder="Your Name" required />
+      <select id="reviewRating" required>
+        <option value="">Rate us</option>
+        <option value="5">⭐⭐⭐⭐⭐ - Excellent</option>
+        <option value="4">⭐⭐⭐⭐ - Good</option>
+        <option value="3">⭐⭐⭐ - Average</option>
+        <option value="2">⭐⭐ - Poor</option>
+        <option value="1">⭐ - Very Poor</option>
+      </select>
+      <textarea id="reviewText" rows="3" placeholder="Write your review here..." required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+  
+    <div class="submitted-reviews" id="submittedReviews">
+      <div class="review-card">
+        <h4>⭐️⭐️⭐️⭐️⭐️ - Priya</h4>
+        <p>"Loved the personalized mug! Perfect for gifting."</p>
+      </div>
+      <div class="review-card">
+        <h4>⭐️⭐️⭐️⭐️ - Aman</h4>
+        <p>"T-shirt quality is great, fast delivery too."</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Contact us on WhatsApp: +91 9315523221</p>
+    <p>&copy; 2025 STG Gift. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+

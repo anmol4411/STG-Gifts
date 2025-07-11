@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STG Gifts - Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sale-banner">
+    <div class="sale-text">
+      🎉 Raksha Bandhan Special! Flat 20% Off – Use Code: <strong>STG20</strong> &nbsp;|&nbsp; 🛍️ Big Discount on Big Orders &nbsp;|&nbsp; 🚚Free Shipping on Order Above ₹999 
+    </div>
+  </div>
+  
+  
+  <header class="main-header">
+    <h1 class="logo">STG Gifts</h1>
+    <div class="nav-container">
+      <nav class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <div class="dropdown">
+          <button class="dropbtn">Bulk Order ▾</button>
+          <div class="dropdown-content">
+            <a href="tel:+919315523221">📞 Call Now</a>
+            <a href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20place%20a%20bulk%20order." target="_blank"><img src="images/whatsapp-icon.jpeg" alt="WhatsApp" class="wa-icon"> WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="category-tabs">
+    <button class="tab-btn active" onclick="filterProducts('all', event)">All</button>
+    <button class="tab-btn" onclick="filterProducts('birthday', event)">Birthday Gifts</button>
+    <button class="tab-btn" onclick="filterProducts('anniversary', event)">Anniversary</button>
+    <button class="tab-btn" onclick="filterProducts('rakhi', event)">Raksha Bandhan</button>
+    <button class="tab-btn" onclick="filterProducts('custom', event)">Customized</button>
+    <button class="tab-btn" onclick="filterProducts('199', event)">Under ₹199</button>
+    <button class="tab-btn" onclick="filterProducts('299', event)">Under ₹299</button>
+    <button class="tab-btn" onclick="filterProducts('499', event)">Under ₹499</button>
+  </div>
+  
+  
+
+  <section class="products" data-category="birthday 199">
+    <div class="product">
+      <img src="images/mug.jpeg" alt="Mug">
+      <h3>Mug</h3>
+      <p>Price: ₹199</p>
+      <p>Category: Personalized Mug</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Mug.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+  
+    <div class="product" data-category="birthday anniversary 299 199 customized">
+      <img src="images/digital-cushion.jpeg" alt="Digital Cushion">
+      <h3>Digital Cushion</h3>
+      <p>Price: ₹249</p>
+      <p>Category: Personalized Cushion</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Digital%20Personalized%20Cushion.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+  
+    <div class="product" data-category="birthday anniversary 299 customized">
+      <img src="images/led-cushion.jpeg" alt="LED Cushion">
+      <h3>LED Cushion</h3>
+      <p>Price: ₹249</p>
+      <p>Category: Personalized Cushion</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20an%20LED%20Personalized%20Cushion.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+  
+    <div class="product" data-category="birthday rakhi anniversary customized 299">
+      <img src="images/tshirt.jpeg" alt="T-Shirt">
+      <h3>T-Shirt</h3>
+      <p>Price: ₹249</p>
+      <p>Category: Personalized T-Shirt</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20T-Shirt.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+  
+    <div class="product" data-category="birthday 299 199 customized">
+      <img src="images/phone-cover.jpeg" alt="Phone Cover">
+      <h3>Phone Cover</h3>
+      <p>Price: ₹199</p>
+      <p>Category: Personalized Phone Cover</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Phone%20Cover.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+
+    <div class="product" data-category="birthday anniversary rakhi 499 customized">
+      <img src="images/water-bottle.jpeg" alt="Water Bottle">
+      <h3>Water Bottle</h3>
+      <p>Price: ₹399</p>
+      <p>Category: Personalized Bottle</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Water%20Bottle.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+    
+    <div class="product" data-category="birthday 299 anniversary rakhi customized">
+      <img src="images/photo-frame.jpeg" alt="Photo Frame">
+      <h3>Photo Frame</h3>
+      <p>Price: ₹299</p>
+      <p>Category: Personalized Photo Frame</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Photo%20Frame.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+    
+    <div class="product" data-category="birthday 299 customized anniversary">
+      <img src="images/tree-collage.jpeg" alt="Tree Collage">
+      <h3>Tree Collage</h3>
+      <p>Price: ₹299</p>
+      <p>Category: Personalized Tree Collage</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Tree%20Collage.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    </div>
+    
+    <div class="product" data-category="birthday 299 customized anniversary">
+      <img src="images/magic-cushion.jpeg" alt="Magic Cushion">
+      <h3>Magic Cushion</h3>
+      <p>Price: ₹299</p>
+      <p>Category: Personalized Magic Cushion</p>
+      <a class="order-btn" href="https://wa.me/919315523221?text=Hi%20STG%20Gifts%2C%20I%20want%20to%20order%20a%20Personalized%20Magic%20Cushion.%20Promo%20Code%3A%20STG20" target="_blank">Order Now</a>
+    
+    </div>
+    
+  </section>
+  
+  <footer>
+    <p>Contact us on WhatsApp: +91 9315523221</p>
+    <p>&copy; 2025 STG Gift. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
