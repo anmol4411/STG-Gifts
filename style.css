@@ -534,4 +534,86 @@ body {
   .tab-btn.active {
     background-color: #ff66a6;
   }
-  
+  /* -------------------- */
+/* 📱 Mobile Responsive */
+/* -------------------- */
+@media screen and (max-width: 768px) {
+  header, .main-header, .nav-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .category-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab-btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin: 5px;
+  }
+
+  .order-btn {
+    padding: 10px 16px;
+    font-size: 1rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .feature-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-left, .feature-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bulk-btn, .dropbtn {
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .sale-text {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+
+  .category-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .category-card {
+    width: 90%;
+  }
+}
