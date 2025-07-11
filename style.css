@@ -537,7 +537,7 @@ body {
   /* -------------------- */
 /* 📱 Mobile Responsive */
 /* -------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   header, .main-header, .nav-container {
     flex-direction: column;
     text-align: center;
